@@ -1,0 +1,309 @@
+.post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1350px;
+    margin-bottom: 50px;
+}
+
+.label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+body {
+    align-items: center;
+    background-color: #b5cf21;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.post {
+    width: 730px;
+    height: auto;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: url(hero8.png);
+    box-shadow: 13px 13px 20px #cea316, -13px -13px 20px #cea316;
+}
+
+.logo {
+    background: url("hero8.png");
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: /* logo shadow */
+    0px 0px 2px #5f5f5f, /* offset */
+    0px 0px 0px 5px #ecf0f3, /*bottom right */
+    -8px -8px 15px #71df0b;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+.fields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+    margin-left: 145px;
+}
+
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.password,
+place {
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    width: 400px;
+    background-color: rgb(195, 235, 218);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.category {
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    width: 400px;
+    background-color: rgb(195, 235, 218);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.cat {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 250px;
+    background-color: rgb(195, 235, 218);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.label {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.des {
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+.dropdown {
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    width: 400px;
+    height: 30px;
+    background-color: rgb(195, 235, 218);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+.img {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 400px;
+    height: 150px;
+    background-color: rgb(195, 235, 218);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.add {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(195, 235, 218);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.checkbox {
+    font-style: normal;
+    text-decoration: #2fdbb6;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 200px;
+    background-color: rgb(5, 253, 17);
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+.fields svg {
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+
+.signin-button {
+    margin-left: 140px;
+    position: relative;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 430px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: #4043d6;
+    box-shadow: 3px 3px 8px #5f6ce2, -3px -3px 8px #0629c7;
+    transition: 0.5s;
+}
+
+.signin-button:hover {
+    background: #5570e6;
+}
+
+.signin-button:active {
+    background: #af1b1b;
+}
+
+.link {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
+
+.select-wrap,
+.wrap-icon {
+    position: relative;
+    border-radius: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.select-wrap .icon,
+.wrap-icon .icon {
+    position: absolute;
+    border-radius: 20px;
+    right: 100px;
+    left: 899px;
+    top: 5%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-border-radius: 10px;
+}
+
+.select-wrap select,
+.wrap-icon select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 400px;
+    position: relative;
+    border-radius: 20px;
+    -webkit-border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-control {
+    height: 43px;
+    border-radius: 30px;
+    font-family: "Nanum Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-control:active,
+.form-control:focus {
+    border-color: #30e3ca;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
